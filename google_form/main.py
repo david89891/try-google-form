@@ -12,6 +12,7 @@ opt = EdgeOptions()
 opt.use_chromium = True
 opt.add_argument('inprivate')
 
+# input the url (long or short)
 url = input()
 url_request = requests.get(url)
 url = url_request.url
