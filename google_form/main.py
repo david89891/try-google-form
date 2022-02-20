@@ -27,6 +27,3 @@ driver = Edge(executable_path='driver-for-selenium/msedgedriver.exe', options=op
 driver.maximize_window()
 driver.get(url)
 time.sleep(100)
-
-# https://docs.google.com/forms/d/e/1FAIpQLSfwiZ7BzQLRJoFFj7NQiXu2Gw_ToKwX2jQsuSYrGGZTlO7I4g/viewform?usp=sf_link
-# https://forms.gle/PdaMu3drsdcZ2MjQ7
